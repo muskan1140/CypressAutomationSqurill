@@ -1,0 +1,22 @@
+{
+  "name": "cypressautomationstartsquirll",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "npm run test -- --browser chrome -- --headed",
+    "cy:open": "cypress open",
+    "cy:headless": "cypress run --browser chrome",
+    "cy:run:electron": "cypress open --browser electron",
+    "cy:run:edge": "cypress open --browser edge",
+    "cy:run:firefox": "cypress open --browser firefox",
+    "cy:run:chrome": "cypress open --browser chrome"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.40.2",
+    "allure-commandline": "^2.30.0",
+    "cypress": "^13.15.0"
+  }
+}
